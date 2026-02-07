@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rifas Classic</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    
+    <nav>
+        <h1>RIFAS FRAGRANCE</h1>
+        <a href="products.html">Back</a>
+
+    </nav>
+
+    <div class="products">
+        <div class="card">
+           <img id="mainIng" src="img/classic1.jpg" class="main-img" alt="">
+        </div>
+
+
+        <div class="card">
+            <h2>Rifas Don Classic</h2>
+            <p class="price">GHS 250</p>
+            <p>
+                A bold luxury fragrance infused with oud, amber and spice.
+                Designed for confidence and presence.
+            </p>
+
+           <div class="gallery">
+                <img src="img/classic1.jpg" onclick="changeImage('mainIng', this.src)" alt="">
+            </div>
+
+            <button onclick="addToCart('Rifas Don Classic', 250)">Add to Cart</button>
+
+
+        </div>
+
+        <div class="card">
+            <h2>Rifas Sabaya</h2>
+            <p class="price">GHS 280</p>
+            <p>
+                A bold luxury fragrance infused with oud, amber and spice.
+                Designed for confidence and presence.
+            </p>
+
+           <div class="gallery">
+                <img src="img/classic2.jpg" onclick="changeImage('mainIng', this.src)" alt="">
+            </div>
+
+            <button onclick="addToCart('Rifas Sabaya', 280)">Add to Cart</button>
+        </div>
+
+        
+    </div>
+
+    <div class="products">
+
+        <div class="card">
+           <img id="mainIng1" src="img/classic1.jpg" class="main-img" alt="">
+        </div>
+
+        <div class="card">
+            <h2>Lemon Fresh (Roll-on Perfume Oil)</h2>
+            <p class="price">GHS 35</p>
+            <p>
+                A bold Lemon Fresh (Roll-on Perfume Oil) infused with oud, amber and spice.
+                Designed for confidence and presence.
+            </p>
+
+           <div class="gallery">
+                <img src="img/classic3.jpg" onclick="changeImage('mainIng1', this.src)" alt="">
+            </div>
+
+            <button onclick="addToCart('Lemon Fresh (Roll-on Perfume Oil)', 35)">Add to Cart</button>
+        </div>
+
+
+    </div>
+      
+    
+    <script src="script.js"></script>
+</body>
+<footer class="footer" >
+    <div class="footer-container">
+
+        <div class="footer-section">
+            <h2>Rifas Fragrance</h2>
+            <p>Luxury scents crafted to make you unforgettable.
+                Discover elegance, confidence, and timeless aroma.
+            </p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Quick Links</h3>
+            <a href="index.html">Home</a>
+            <a href="cart.html">Cart</a>
+            <a href="product.html">Product</a>
+            <a href="products.html">Products</a>
+        </div>
+
+        <div class="footer-section">
+            <h3>Contact</h3>
+            <p>Kumasi, Ghana</p>
+            <p>+233 538 274 741</p>
+            <p>rifasfragrance@gmail.com</p>
+
+        </div>
+
+        <div class="footer-section">
+            <h3>Follow Us</h3>
+            <a href="https://wa.me/233538274741" target="_blank">WhatsApp</a><br>
+            <a href="https://instagram.com/" target="_blank">Instagram</a><br>
+            <a href="https://facebook.com/" target="_blank">Facebook</a>
+        </div>
+
+    </div>
+
+
+ <div class="footer-bottom">
+    <p>&#169; 2026 Rifas Fragrance</p>
+
+    <div class="social-icons">
+        <a href="https://wa.me/233538274741" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+
+        <a href="https://instagram.com/" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+
+        <a href="https://facebook.com/" target="_blank">
+            <i class="fab fa-facebook"></i>
+        </a>
+    </div>
+ </div>
+</footer>
+</html>
